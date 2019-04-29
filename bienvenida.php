@@ -1,8 +1,8 @@
 <?php
 include_once("controladores/funciones.php");
-if(!isset($_SESSION["name"])){
+/* if(!isset($_SESSION["name"])){
     header("location:login.php");
-}
+} */
 ?>
 
 <?php include_once 'includes/__head.php'; ?>
@@ -10,7 +10,13 @@ if(!isset($_SESSION["name"])){
 <body>
   <!-- AQUI EMPIEZA EL NAV -->
 
-<?php include_once 'includes/__nav_logged.php'; ?>
+  <?php if (count($_SESSION) != 0)
+{
+    include 'includes/__nav_logged.php';
+} else {
+    include 'includes/__nav.php';
+}
+ ?>
 
 <!-- AQUI TERMINA EL NAV -->
 

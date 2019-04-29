@@ -204,7 +204,7 @@ button:hover{
 }
 
 .cajita-texto{
-  margin-top: 30%;  
+  margin-top: 17%;  
 }
 .cajita2{
   width: 100vw;
@@ -254,7 +254,7 @@ html{
   width: 50vw;
   justify-content: center;
   align-items: center;
-  margin-top: 20%;
+  margin-top: 14%;
   padding: 5%;
 }
 
@@ -277,8 +277,7 @@ html{
   width: 50vw;
   border-radius: 0;
   border: 1em solid black;
-  margin-top:20%;
-  margin-bottom: 5%;
+  margin: 14% 5% 8% 0%;
 }
 form input{
   margin-bottom: 0.7em;
@@ -354,8 +353,7 @@ form input{
 .cajita2{
   width: 50vw;
   border: 1em solid black;
-  margin-bottom: 2%;
-  margin-top: 10%;
+  margin: 10% 5% 4% 0%;
 }
 form input{
   margin-bottom: 0.7em;

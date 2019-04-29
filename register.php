@@ -37,23 +37,21 @@
       </h1>
       <p class="texto_bienvenida">
       <strong> VINTRASH </strong> es un espacio para que tú puedas buscar y
-encontrar, u ofrecer, todo aquello que te apasiona.
-Desde comics, libros, vinilos, cassettes, posters, figuras de
-colección en su empaque original, juegos, vhs, etc.
-Pequeñas o grandes reliquias, aquellas que para algunos
-quedaron en el olvido y que, para ti, son tesoros a encontrar.
+        encontrar, u ofrecer, todo aquello que te apasiona.
+        Desde comics, libros, vinilos, cassettes, posters, figuras de
+        colección en su empaque original, juegos, vhs, etc.
+        Pequeñas o grandes reliquias, aquellas que para algunos
+        quedaron en el olvido y que, para ti, son tesoros a encontrar.
 
-Las reglas son simples, somos un <strong>ecommerce de “intercambio”</strong>: solicitas un producto, el oferente ingresa a tu
-perfil y revisa si hay algo de su interés y, si lo encuentra,
-intercambian productos. <br>
-<b>Pero no te desanimes!</b> Si no tienes nada que ofrecer, que
-sea de interés para tu ofertante, el puede subastártelo!
-<br>
-<b> <i> Bienvenido a VINTRASH, donde el deshecho de uno es
-el tesoro de otro. </i> </b>
+        Las reglas son simples, somos un <strong>ecommerce de “intercambio”</strong>: solicitas un producto, el oferente ingresa a tu
+        perfil y revisa si hay algo de su interés y, si lo encuentra,
+        intercambian productos. <br>
+        <b>Pero no te desanimes!</b> Si no tienes nada que ofrecer, que
+        sea de interés para tu ofertante, el puede subastártelo!
+        <br>
+        <b> <i> Bienvenido a VINTRASH, donde el deshecho de uno es
+        el tesoro de otro. </i> </b>
       </p>
-
- 
     </div>
 
     <div class="cajita2">
@@ -70,7 +68,7 @@ el tesoro de otro. </i> </b>
         <?php endif; ?>
 
 
-            <h1>Welcome!</h1>
+            <h1>Registro!</h1>
             <form class="formularioRegister" action="" method="POST" enctype="multipart/form-data">
                 <input class="inputForm" type="text" name="name" placeholder="Usuario" value="<?=isset($errores["name"])? "":inputUser("name") ;?>"> <!--persistencia de datos ;)-->
                 <input class="inputForm" type="text" name="email" placeholder="Correo electrónico" value="<?=isset($errores["email"])? "":inputUser("email") ;?>"><!--persistencia de datos :D-->

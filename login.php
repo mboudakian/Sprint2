@@ -32,7 +32,7 @@ if($_POST){
         <main class="login">
           <div class="cajita">
          
-            <h1>Welcome!</h1>
+            <h1>Inicio sesion!</h1>
             <?php
       if(isset($errores)):?>
         <ul class="alert alert-danger">
@@ -43,11 +43,11 @@ if($_POST){
         </ul>
       <?php endif;?>
             <form action="" method="POST">
-                <input class="inputLogin" type="text" name="name" placeholder="Usuario">
+                <input class="inputLogin" type="text" name="name" placeholder="Usuario" value="<?=(isset($errores["name"])) ?  "" : inputUser("name");?>" placeholder="Nombre de usuario...">
                 <a href="#">Olvidó su nombre de usuario?</a>
                 <input class="inputLogin" type="password" name="pass" placeholder="Contraseña">
                 <a href="#">Olvidó su contraseña?</a>
-                <p>Recordarme<input class="inputLogin" class="check" type="checkbox" name="remember" checked="checked"></p>
+                <p>Recordarme<input class="inputLogin" class="check" type="checkbox" name="remember"></p>
                 <button class="submitLogin" type="submit">Enviar</button>
             </form>
             </div>

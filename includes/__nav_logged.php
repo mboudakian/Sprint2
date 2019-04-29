@@ -8,7 +8,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="#"> Bienvenid@ <?=$_SESSION["name"];?> </a>
+              <a class="nav-link" href="bienvenida.php"> Bienvenid@ <?=$_SESSION["name"];?> </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="faq.php">FAQ</a>

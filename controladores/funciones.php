@@ -152,5 +152,5 @@ function iniciarSesion($usuario, $datos){
     $_SESSION["avatar"]=$usuario["avatar"];
     if(isset($datos["remember"])){
         setcookie("pass", $datos["pass"], time()+86400);
-    }
+    } 
 }

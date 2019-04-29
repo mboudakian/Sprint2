@@ -10,7 +10,13 @@ if(!isset($_SESSION["name"])){
 <body>
   <!-- AQUI EMPIEZA EL NAV -->
 
-<?php include_once 'includes/__nav_logged.php'; ?>
+  <?php if (count($_SESSION) != 0)
+{
+    include 'includes/__nav_logged.php';
+} else {
+    include 'includes/__nav.php';
+}
+ ?>
 
 <!-- AQUI TERMINA EL NAV -->
 

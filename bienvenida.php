@@ -1,8 +1,8 @@
 <?php
 include_once("controladores/funciones.php");
-/* if(!isset($_SESSION["name"])){
+if(!isset($_SESSION["name"])){
     header("location:login.php");
-} */
+}
 ?>
 
 <?php include_once 'includes/__head.php'; ?>
